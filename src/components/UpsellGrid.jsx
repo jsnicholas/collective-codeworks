@@ -43,15 +43,40 @@ function UpsellGrid() {
             Learn more
           </a>
         </div>
-        {/* third upsell row */}
+        {/* graphic design upsell */}
         <div
           className="aspect-square bg-center bg-cover"
           style={{ backgroundImage: `url(${cherryPic})` }}
-        ></div>
+        >
+          <div className="h-1/3"></div>
+          <div className="h-1/3"></div>
+          <div className="text-center h-1/3" style={{ color: "#225F4F" }}>
+            <p className="font-serif text-4xl capitalize mb-4">
+              Graphic design
+            </p>
+            <p className="px-12">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential
+              clients&apos; attention
+            </p>
+          </div>
+        </div>
+        {/* Photography upsell */}
         <div
-          className="aspect-square text-dark bg-center bg-cover"
+          className="aspect-square bg-center bg-cover"
           style={{ backgroundImage: `url(${orangePic})` }}
-        ></div>
+        >
+          <div className="h-1/3"></div>
+          <div className="h-1/3"></div>
+          <div className="text-center h-1/3" style={{ color: "#144156" }}>
+            <p className="font-serif text-4xl capitalize mb-4">Photography</p>
+            <p className="px-12">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential
+              clients&apos; attention
+            </p>
+          </div>
+        </div>
       </section>
     </>
   );
