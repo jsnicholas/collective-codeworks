@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jsnicholas.github.io/collective-codeworks/",
+  "homepage": ".",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "dev": "vite",
-    "build": "vite build && npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "build": "vite build --base=./ && npx tailwindcss -i ./src/input.css -o ./dist/output.css",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
