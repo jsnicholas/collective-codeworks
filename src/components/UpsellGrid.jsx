@@ -49,7 +49,7 @@ function UpsellGrid() {
           style={{ backgroundImage: `url(${cherryPic})` }}
         >
           <div className="h-1/3"></div>
-          <div className="h-1/3"></div>
+          <div className="h-1/4 lg:h-1/3"></div>
           <div className="text-center h-1/3" style={{ color: "#225F4F" }}>
             <p className="font-serif text-4xl capitalize mb-4">
               Graphic design
@@ -67,7 +67,7 @@ function UpsellGrid() {
           style={{ backgroundImage: `url(${orangePic})` }}
         >
           <div className="h-1/3"></div>
-          <div className="h-1/3"></div>
+          <div className="h-1/4 lg:h-1/3"></div>
           <div className="text-center h-1/3" style={{ color: "#144156" }}>
             <p className="font-serif text-4xl capitalize mb-4">Photography</p>
             <p className="px-12">

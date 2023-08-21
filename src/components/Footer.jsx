@@ -7,7 +7,7 @@ import sugarFooterImg from "../assets/desktop/image-gallery-sugarcubes.jpg";
 function Footer() {
   return (
     <footer className="h-fit w-full">
-      <div className="grid grid-cols-4 h-96 w-full">
+      <div className="hidden md:grid grid-cols-4 h-96 w-full">
         <div
           className="bg-no-repeat bg-cover"
           style={{

@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Team from "./components/Team";
+import Testimonials from "./components/Testimonials";
 import UpsellGrid from "./components/UpsellGrid";
 import "./input.css";
 
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <UpsellGrid />
-      <Team />
+      <Testimonials />
       <Footer />
     </>
   );

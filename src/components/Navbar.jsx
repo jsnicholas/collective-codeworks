@@ -1,5 +1,3 @@
-import hamburgerIcon from "../assets/icon-hamburger.svg";
-
 function Navbar() {
   return (
     <div className="navbar bg-primary place-content-around">
@@ -27,7 +25,7 @@ function Navbar() {
         <ul className="menu menu-horizontal">
           <li>
             <details>
-              <summary>{hamburgerIcon}</summary>
+              <summary className="text-neutral">Menu</summary>
               <ul className="p-2 bg-base-100">
                 <li>
                   <a>Link 1</a>
