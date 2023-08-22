@@ -1,8 +1,14 @@
-# React + Vite
+# Collective Codeworks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This template was created for a client who is starting a design consultancy. Because many of their customers come from Instagram or other apps, it was important to take a mobile-first approach, while also providing an elegant desktop view.
+Their customer base also consists of users who speak languages other than English. By using react-i18next, localization can easily be provided and changed dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+Vite + React, Tailwind, DaisyUI, react-i18next
+
+## Live Site Preview
+
+https://jsnicholas.github.io/collective-codeworks/
