@@ -9,6 +9,7 @@ Their customer base also consists of users who speak languages other than Englis
 
 <img src="./screenshots/screen1.png" />
 <img src="./screenshots/screen2.png" />
+
 ## Technologies Used
 
 Vite + React, Tailwind, DaisyUI, react-i18next
